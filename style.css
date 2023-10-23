@@ -271,7 +271,7 @@ textarea:focus,
   }
 
   body {
-    width: 100%
+    width: 100%;
     position: relative;
   }
 
@@ -366,8 +366,8 @@ textarea:focus,
 }
 
 input[type="radio"]:after {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 15px;
   top: 2px;
   left: -1px;
@@ -380,8 +380,8 @@ input[type="radio"]:after {
 }
 
 input[type="radio"]:checked:after {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 15px;
   top: 2px;
   left: -1px;
@@ -467,6 +467,12 @@ input[type="radio"]:checked:after {
   flex-wrap: wrap;
   flex-grow: 1;
   gap: 12px;
+}
+
+#sex-male,
+#sex-female {
+  position: relative;
+  bottom: 2px;
 }
 
 .sex-title {
