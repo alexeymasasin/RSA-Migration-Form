@@ -444,7 +444,7 @@ textarea:focus,
 #sex-male,
 #sex-female {
   position: relative;
-  bottom: 0px;
+  bottom: -2px;
 }
 
 input[type="radio"]:after {
