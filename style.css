@@ -219,6 +219,10 @@ input[type="radio"]:checked:after {
   height: 17px;
 }
 
+.input-test::placeholder {
+  color: #4d4d4d;
+}
+
 textarea:focus,
 .input-test:focus {
   outline: none;
@@ -515,6 +519,10 @@ input[type="radio"]:checked:after {
   color: #ab79d6;
   padding: 5px 0 5px 10px;
   height: 17px;
+}
+
+.input-test::placeholder {
+  color: #4d4d4d;
 }
 
 textarea:focus,
