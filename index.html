@@ -5,159 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="container">
-      <form class="migration-form" action="">
-        <h2 class="form-title">Форма миграции (ЮАР)</h2>
-
-        <div class="firstname-box">
-          <label for="firstname">Имя:</label>
-          <input
-            class="input-field"
-            type="text"
-            value=""
-            name=""
-            id="firstname"
-            placeholder="Иван"
-            required
-          />
-        </div>
-
-        <div class="lastname-box">
-          <label for="lastname">Фамилия:</label>
-          <input
-            class="input-field"
-            type="text"
-            value=""
-            name=""
-            id="lastname"
-            placeholder="Петров"
-            required
-          />
-        </div>
-
-        <div class="midname-box">
-          <label for="midname">Отчество (при наличии):</label>
-          <input
-            class="input-field"
-            type="text"
-            value=""
-            name=""
-            id="midname"
-            placeholder="Васильевич"
-            required
-          />
-        </div>
-
-        <div class="nation-box">
-          <p>Гражданство(а):</p>
-          <input
-            class="input-checkbox"
-            type="radio"
-            name="nationality"
-            id="nation-ru"
-          />
-          <label for="nation-ru">РФ</label>
-
-          <input
-            class="input-checkbox"
-            type="radio"
-            name="nationality"
-            id="nation-china"
-          />
-          <label for="nation-china">КНР</label>
-
-          <input
-            class="input-checkbox"
-            type="radio"
-            name="nationality"
-            id="nation-ukraine"
-          />
-          <label for="nation-ukraine">Украина</label>
-
-          <input
-            class="input-checkbox"
-            type="radio"
-            name="nationality"
-            id="nation-other"
-            required
-          />
-          <label for="nation-other">Другое</label>
-        </div>
-
-        <div class="access-test">
-          <h2 class="form-title">Тест</h2>
-          <p class="test-instruction">
-            Отвечайте только "да" или "нет" в полях ввода данных
-          </p>
-          <div class="test-inputs">
-            <div class="test-one-box">
-              <label for="test-one">1. Готовы ли вы к переезду?</label>
-              <input
-                class="input-test"
-                type="text"
-                value=""
-                name=""
-                id="test-one"
-                placeholder="да / нет"
-                required
-              />
-            </div>
-
-            <div class="test-two-box">
-              <label for="test-two">2. Приследуетесь ли вы уголовно?</label>
-              <input
-                class="input-test"
-                type="text"
-                value=""
-                name=""
-                id="test-two"
-                placeholder="да / нет"
-                required
-              />
-            </div>
-
-            <div class="test-three-box">
-              <label for="test-three">3. Имеете ли высшее образование?</label>
-              <input
-                class="input-test"
-                type="text"
-                value=""
-                name=""
-                id="test-three"
-                placeholder="да / нет"
-                required
-              />
-            </div>
-
-            <div class="test-four-box">
-              <label for="test-four"
-                >4. Есть ли у вас родственники в нашей стране?</label
-              >
-              <input
-                class="input-test"
-                type="text"
-                value=""
-                name=""
-                id="test-four"
-                placeholder="да / нет"
-                required
-              />
-            </div>
+    <main class="main">
+      <div class="container">
+        <form class="migration-form" action="">
+          <h2 class="form-title"><?xml version="1.0" encoding="utf-8"?>
+            <svg class="migration-icon" width="45px" height="45px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 9C5.5 6.79086 7.29086 5 9.5 5H15.5C17.7091 5 19.5 6.79086 19.5 9V15C19.5 17.2091 17.7091 19 15.5 19H9.5C7.29086 19 5.5 17.2091 5.5 15V9Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16.5 9.75C16.9142 9.75 17.25 9.41421 17.25 9C17.25 8.58579 16.9142 8.25 16.5 8.25V9.75ZM8.5 8.25C8.08579 8.25 7.75 8.58579 7.75 9C7.75 9.41421 8.08579 9.75 8.5 9.75V8.25ZM15.5 12.75C15.9142 12.75 16.25 12.4142 16.25 12C16.25 11.5858 15.9142 11.25 15.5 11.25V12.75ZM9.5 11.25C9.08579 11.25 8.75 11.5858 8.75 12C8.75 12.4142 9.08579 12.75 9.5 12.75V11.25ZM14.5 15.75C14.9142 15.75 15.25 15.4142 15.25 15C15.25 14.5858 14.9142 14.25 14.5 14.25V15.75ZM10.5 14.25C10.0858 14.25 9.75 14.5858 9.75 15C9.75 15.4142 10.0858 15.75 10.5 15.75V14.25ZM16.5 8.25H8.5V9.75H16.5V8.25ZM15.5 11.25H9.5V12.75H15.5V11.25ZM14.5 14.25H10.5V15.75H14.5V14.25Z" fill="#fff"/>
+            </svg>Форма миграции (ЮАР)</h2>
+  
+          <div class="firstname-box">
+            <label for="firstname">Имя:</label>
+            <input
+              class="input-field"
+              type="text"
+              value=""
+              name=""
+              id="firstname"
+              placeholder="Иван"
+              required
+            />
           </div>
-          <p>
-            Результаты теста:
-            <span class="test-result"
-              >для отправки данных нажмите на кнопку ниже.</span
-            >
-          </p>
-        </div>
-        <div class="button-div">
-          <button type="submit" class="submit-button">Отправить</button>
-        </div>
-      </form>
-    </div>
+  
+          <div class="lastname-box">
+            <label for="lastname">Фамилия:</label>
+            <input
+              class="input-field"
+              type="text"
+              value=""
+              name=""
+              id="lastname"
+              placeholder="Петров"
+              required
+            />
+          </div>
+  
+          <div class="midname-box">
+            <label for="midname">Отчество (при наличии):</label>
+            <input
+              class="input-field"
+              type="text"
+              value=""
+              name=""
+              id="midname"
+              placeholder="Васильевич"
+              required
+            />
+          </div>
+  
+          <div class="nation-box">
+            <p>Гражданство(а):</p>
+            <input
+              class="input-checkbox"
+              type="checkbox"
+              name="nationality"
+              id="nation-ru"
+            />
+            <label for="nation-ru">РФ</label>
+  
+            <input
+              class="input-checkbox"
+              type="checkbox"
+              name="nationality"
+              id="nation-china"
+            />
+            <label for="nation-china">КНР</label>
+  
+            <input
+              class="input-checkbox"
+              type="checkbox"
+              name="nationality"
+              id="nation-ukraine"
+            />
+            <label for="nation-ukraine">Украина</label>
+  
+            <input
+              class="input-checkbox"
+              type="checkbox"
+              name="nationality"
+              id="nation-other"
+              required
+            />
+            <label for="nation-other">Другое</label>
+          </div>
+  
+          <div class="sex-box">
+            <p>Пол:</p>
+            <input
+              class="input-radio"
+              type="radio"
+              name="sex"
+              id="sex-male"
+              required
+            />
+            <label for="sex-male">Мужской</label>
+  
+            <input
+              class="input-radio"
+              type="radio"
+              name="sex"
+              id="sex-female"
+              req
+            />
+            <label for="sex-female">Женский</label>
+          </div>
+  
+          <div class="access-test">
+            <h2 class="test-title"><?xml version="1.0" encoding="utf-8"?>
+              <svg class="test-icon" width="45px" height="45px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 13V11C5.5 7.68629 8.18629 5 11.5 5H13.5C16.8137 5 19.5 7.68629 19.5 11V13C19.5 16.3137 16.8137 19 13.5 19H11.5C8.18629 19 5.5 16.3137 5.5 13Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M10.5 9.63895C10.5 8.54895 11.4 7.94895 12.747 7.99995C13.7191 8.03367 14.492 8.82731 14.5 9.79995C14.547 10.7095 14.116 11.5776 13.363 12.09C12.723 12.5 12.3847 13.2487 12.5 14" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.5 16.5C12.2243 16.5 12 16.2757 12 16C12 15.7243 12.2243 15.5 12.5 15.5C12.7757 15.5 13 15.7243 13 16C13 16.2757 12.7757 16.5 12.5 16.5Z" fill="#fff"/>
+              <path d="M12.5 15C13.0523 15 13.5 15.4477 13.5 16C13.5 16.5523 13.0523 17 12.5 17C11.9477 17 11.5 16.5523 11.5 16C11.5 15.4477 11.9477 15 12.5 15Z" fill="#fff"/>
+              </svg>Тест</h2>
+            <p class="test-instruction">
+              Отвечайте только "да" или "нет" в полях ввода данных
+            </p>
+            <div class="test-inputs">
+              <div class="test-one-box">
+                <label for="test-one">1. Готовы ли вы к переезду?</label>
+                <input
+                  class="input-test"
+                  type="text"
+                  value=""
+                  name=""
+                  id="test-one"
+                  placeholder="да / нет"
+                  required
+                />
+              </div>
+  
+              <div class="test-two-box">
+                <label for="test-two">2. Приследуетесь ли вы уголовно?</label>
+                <input
+                  class="input-test"
+                  type="text"
+                  value=""
+                  name=""
+                  id="test-two"
+                  placeholder="да / нет"
+                  required
+                />
+              </div>
+  
+              <div class="test-three-box">
+                <label for="test-three">3. Имеете ли высшее образование?</label>
+                <input
+                  class="input-test"
+                  type="text"
+                  value=""
+                  name=""
+                  id="test-three"
+                  placeholder="да / нет"
+                  required
+                />
+              </div>
+  
+              <div class="test-four-box">
+                <label for="test-four"
+                  >4. Есть ли у вас родственники в нашей стране?</label
+                >
+                <input
+                  class="input-test"
+                  type="text"
+                  value=""
+                  name=""
+                  id="test-four"
+                  placeholder="да / нет"
+                  required
+                />
+              </div>
+            </div>
+            <h2><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg class="result-icon" width="40px" height="40px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 12.5538H6.25C6.25 12.5713 6.25061 12.5888 6.25183 12.6062L7 12.5538ZM7.782 13.2398V12.4898C7.76683 12.4898 7.75167 12.4903 7.73653 12.4912L7.782 13.2398ZM17.217 13.2398L17.3055 12.4951C17.2761 12.4916 17.2466 12.4898 17.217 12.4898V13.2398ZM17.8805 12.9231L18.5153 13.3225V13.3225L17.8805 12.9231ZM17.879 12.1878L18.5121 11.7858C18.5046 11.7739 18.4967 11.7622 18.4885 11.7508L17.879 12.1878ZM15.943 9.48782L16.5526 9.05075L16.5467 9.04282L15.943 9.48782ZM15.943 8.75682L16.5468 9.20187L16.5525 9.19386L15.943 8.75682ZM17.879 6.05682L18.4885 6.49386C18.4967 6.48242 18.5046 6.47075 18.5121 6.45887L17.879 6.05682ZM17.8805 5.32159L18.5153 4.92214L18.5153 4.92214L17.8805 5.32159ZM17.217 5.00482V5.75482C17.2466 5.75482 17.2761 5.75307 17.3055 5.74958L17.217 5.00482ZM7.782 5.00482L7.73653 5.75344C7.75167 5.75436 7.76683 5.75482 7.782 5.75482V5.00482ZM7 5.69082L6.25183 5.63841C6.25061 5.65586 6.25 5.67334 6.25 5.69082H7ZM7.75 12.5538C7.75 12.1396 7.41421 11.8038 7 11.8038C6.58579 11.8038 6.25 12.1396 6.25 12.5538H7.75ZM6.25 19.0048C6.25 19.419 6.58579 19.7548 7 19.7548C7.41421 19.7548 7.75 19.419 7.75 19.0048H6.25ZM6.25183 12.6062C6.30892 13.4212 7.01201 14.038 7.82747 13.9884L7.73653 12.4912C7.73632 12.4912 7.73688 12.4912 7.73797 12.4913C7.73901 12.4915 7.74008 12.4917 7.74107 12.4921C7.74295 12.4927 7.74396 12.4935 7.74445 12.4939C7.74494 12.4943 7.74581 12.4952 7.7467 12.497C7.74718 12.498 7.74758 12.499 7.74786 12.5C7.74815 12.5011 7.74818 12.5016 7.74817 12.5014L6.25183 12.6062ZM7.782 13.9898H17.217V12.4898H7.782V13.9898ZM17.1285 13.9846C17.6798 14.0501 18.2196 13.7924 18.5153 13.3225L17.2457 12.5236C17.2585 12.5034 17.2818 12.4922 17.3055 12.4951L17.1285 13.9846ZM18.5153 13.3225C18.811 12.8526 18.8098 12.2545 18.5121 11.7858L17.2459 12.5899C17.233 12.5697 17.233 12.5439 17.2457 12.5236L18.5153 13.3225ZM18.4885 11.7508L16.5525 9.05079L15.3335 9.92486L17.2695 12.6249L18.4885 11.7508ZM16.5467 9.04282C16.5816 9.09009 16.5816 9.15455 16.5467 9.20183L15.3393 8.31182C14.984 8.79376 14.984 9.45088 15.3393 9.93283L16.5467 9.04282ZM16.5525 9.19386L18.4885 6.49386L17.2695 5.61979L15.3335 8.31979L16.5525 9.19386ZM18.5121 6.45887C18.8098 5.99018 18.811 5.39204 18.5153 4.92214L17.2457 5.72104C17.233 5.70078 17.233 5.67499 17.2459 5.65478L18.5121 6.45887ZM18.5153 4.92214C18.2196 4.45224 17.6798 4.19454 17.1285 4.26007L17.3055 5.74958C17.2818 5.75241 17.2585 5.7413 17.2457 5.72104L18.5153 4.92214ZM17.217 4.25482H7.782V5.75482H17.217V4.25482ZM7.82747 4.2562C7.01201 4.20667 6.30892 4.82344 6.25183 5.63841L7.74817 5.74323C7.74818 5.74303 7.74815 5.74359 7.74786 5.74465C7.74758 5.74566 7.74718 5.74669 7.7467 5.74762C7.74581 5.7494 7.74494 5.7503 7.74445 5.75073C7.74396 5.75116 7.74295 5.75191 7.74107 5.75257C7.74008 5.75291 7.73901 5.75317 7.73797 5.75332C7.73688 5.75347 7.73632 5.75343 7.73653 5.75344L7.82747 4.2562ZM6.25 5.69082V12.5538H7.75V5.69082H6.25ZM6.25 12.5538V16.2987H7.75V12.5538H6.25ZM6.25 16.2987V19.0048H7.75V16.2987H6.25Z" fill="#fff"/>
+              </svg>Результаты теста: </h2>
+            <p class="result-p"><span class="test-result"
+                >Для отправки данных нажмите на кнопку ниже.</span>
+            </р>
+          </div>
+          <div class="footer-box">
+            <div class="credit"><a class="github-link" href="https://github.com/alexeymasasin" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+              <svg class="github-icon" fill="#000000" width="35px" height="35px" viewBox="-6 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <title>github</title>
+              <path d="M18.36 9.28c0.48-1.72-0.24-3.6-0.28-3.72-0.12-0.28-0.4-0.52-0.72-0.52-0.080 0-1.92-0.16-3.76 1.24-1.44-0.28-3.080-0.36-3.16-0.36-0.040 0-0.040 0-0.080 0-0.080 0-1.72 0.080-3.16 0.36-1.84-1.4-3.68-1.24-3.76-1.24-0.32 0.040-0.6 0.24-0.72 0.52-0.040 0.080-0.8 2-0.28 3.72-0.92 1.28-1.64 2.96-1 5.96 0.6 2.72 2.84 4.24 5.16 4.76-0.2 0.56-0.28 1.24-0.36 1.96-0.96 0.040-1.56-0.52-2.4-1.4-0.72-0.76-1.52-1.64-2.84-1.92-0.44-0.12-0.88 0.16-1 0.64-0.080 0.48 0.2 0.92 0.68 1 0.76 0.16 1.28 0.72 1.92 1.4 0.84 0.88 1.8 1.96 3.52 1.96 0 0 0.040 0 0.040 0 0 0.92 0.080 1.8 0.12 2.52 0.040 0.48 0.44 0.8 0.92 0.76s0.8-0.44 0.76-0.92c-0.24-2.72-0.040-5.6 0.4-6 0.32-0.2 0.52-0.56 0.4-0.96-0.080-0.36-0.4-0.64-0.8-0.64-0.36 0-4.12-0.2-4.84-3.52-0.6-2.72 0.16-3.92 0.96-4.88 0.2-0.24 0.24-0.6 0.12-0.92-0.32-0.68-0.2-1.64-0.040-2.28 0.56 0.080 1.4 0.32 2.28 1.080 0.2 0.2 0.48 0.24 0.76 0.2 1.24-0.32 2.92-0.4 3.2-0.4 0.24 0 1.96 0.080 3.2 0.4 0.28 0.080 0.56 0 0.76-0.2 0.88-0.76 1.76-1 2.28-1.080 0.16 0.6 0.28 1.56-0.040 2.28-0.12 0.28-0.080 0.64 0.12 0.92 0.8 0.96 1.52 2.16 0.96 4.88-0.72 3.32-4.48 3.52-4.92 3.56-0.4 0-0.72 0.28-0.8 0.64s0.080 0.76 0.4 0.96c0.48 0.4 0.68 3.24 0.44 6-0.040 0.48 0.32 0.88 0.76 0.92 0.040 0 0.040 0 0.080 0 0.44 0 0.8-0.32 0.84-0.76 0.16-1.76 0.28-4.48-0.28-6.2 2.32-0.48 4.56-2.040 5.16-4.76 0.64-3-0.040-4.68-1-5.96z" fill="#ab79d6"></path>
+              </svg>alexeymasasin</a></div>
+            <button type="submit" class="submit-button">Отправить <?xml version="1.0" encoding="utf-8"?>
+              <svg class="send-icon" width="25px" height="25px" viewBox="5 0 12 24" fill="#161616" xmlns="http://www.w3.org/2000/svg">
+              <path class="send-icon-color" d="M10.2772 18.4623C9.9802 18.751 9.97351 19.2258 10.2623 19.5228C10.551 19.8198 11.0258 19.8265 11.3228 19.5377L10.2772 18.4623ZM18 12L18.5228 12.5377C18.6681 12.3965 18.75 12.2026 18.75 12C18.75 11.7974 18.6681 11.6035 18.5228 11.4623L18 12ZM11.3228 4.46225C11.0258 4.17351 10.551 4.1802 10.2623 4.47719C9.97351 4.77418 9.9802 5.24901 10.2772 5.53775L11.3228 4.46225ZM5.47721 17.2952C5.18021 17.584 5.17351 18.0588 5.46224 18.3558C5.75097 18.6528 6.2258 18.6595 6.52279 18.3708L5.47721 17.2952ZM12 12L12.5228 12.5378C12.668 12.3965 12.75 12.2026 12.75 12C12.75 11.7974 12.668 11.6035 12.5228 11.4622L12 12ZM6.52279 5.62924C6.2258 5.34051 5.75097 5.34721 5.46224 5.64421C5.17351 5.9412 5.18021 6.41603 5.47721 6.70476L6.52279 5.62924ZM11.3228 19.5377L18.5228 12.5377L17.4772 11.4623L10.2772 18.4623L11.3228 19.5377ZM18.5228 11.4623L11.3228 4.46225L10.2772 5.53775L17.4772 12.5377L18.5228 11.4623ZM6.52279 18.3708L12.5228 12.5378L11.4772 11.4622L5.47721 17.2952L6.52279 18.3708ZM12.5228 11.4622L6.52279 5.62924L5.47721 6.70476L11.4772 12.5378L12.5228 11.4622Z" fill="#161616"/>
+              </svg></button>
+          </div>
+        </form>
+      </div>
+    </main>
+
     <!-- container closing -->
     <script src="app.js"></script>
   </body>
