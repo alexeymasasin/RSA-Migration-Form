@@ -187,9 +187,22 @@ input[type="radio"]:checked:after {
   margin-bottom: 10px;
 }
 
+#nation-ru,
+#nation-china,
+#nation-other {
+  position: relative;
+  top: -0px;
+}
+
 .sex-box {
   display: flex;
   gap: 10px;
+}
+
+#sex-male,
+#sex-female {
+  position: relative;
+  top: 0px;
 }
 
 .test-title {
