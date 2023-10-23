@@ -365,6 +365,34 @@ textarea:focus,
   border-radius: 3px;
 }
 
+input[type="radio"]:after {
+  width: 14px;
+  height: 14px;
+  border-radius: 15px;
+  top: 0px;
+  left: -1px;
+  position: relative;
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #424242;
+}
+
+input[type="radio"]:checked:after {
+  width: 14px;
+  height: 14px;
+  border-radius: 15px;
+  top: 0px;
+  left: -1px;
+  position: relative;
+  background-color: #ab79d6;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #424242;
+}
+
 .footer-box {
   display: flex;
   flex-direction: column-reverse;
@@ -445,34 +473,6 @@ textarea:focus,
 #sex-female {
   position: relative;
   bottom: -2px;
-}
-
-input[type="radio"]:after {
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  top: -2px;
-  left: -1px;
-  position: relative;
-  background-color: #fff;
-  content: "";
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid #424242;
-}
-
-input[type="radio"]:checked:after {
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  top: -2px;
-  left: -1px;
-  position: relative;
-  background-color: #ab79d6;
-  content: "";
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid #424242;
 }
 
 .sex-title {
