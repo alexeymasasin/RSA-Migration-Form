@@ -369,7 +369,7 @@ input[type="radio"]:after {
   width: 14px;
   height: 14px;
   border-radius: 15px;
-  top: 2px;
+  top: 0px;
   left: -1px;
   position: relative;
   background-color: #fff;
@@ -383,7 +383,7 @@ input[type="radio"]:checked:after {
   width: 14px;
   height: 14px;
   border-radius: 15px;
-  top: 2px;
+  top: 0px;
   left: -1px;
   position: relative;
   background-color: #ab79d6;
@@ -472,7 +472,7 @@ input[type="radio"]:checked:after {
 #sex-male,
 #sex-female {
   position: relative;
-  bottom: 2px;
+  bottom: 0px;
 }
 
 .sex-title {
