@@ -271,7 +271,8 @@ textarea:focus,
   }
 
   body {
-    width: 400px;
+    width: 100%
+    position: relative;
   }
 
   .migration-form {
@@ -476,6 +477,7 @@ input[type="radio"]:checked:after {
 .test-title {
   position: relative;
   margin-bottom: 20px;
+  margin-top: 13px;
   font-size: 17px;
 }
 
