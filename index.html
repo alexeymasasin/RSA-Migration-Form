@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="migration-form" action="">
+        <h2 class="form-title">Форма миграции (ЮАР)</h2>
+
+        <div class="firstname-box">
+          <label for="firstname">Имя:</label>
+          <input
+            class="input-field"
+            type="text"
+            value=""
+            name=""
+            id="firstname"
+            placeholder="Иван"
+            required
+          />
+        </div>
+
+        <div class="lastname-box">
+          <label for="lastname">Фамилия:</label>
+          <input
+            class="input-field"
+            type="text"
+            value=""
+            name=""
+            id="lastname"
+            placeholder="Петров"
+            required
+          />
+        </div>
+
+        <div class="midname-box">
+          <label for="midname">Отчество (при наличии):</label>
+          <input
+            class="input-field"
+            type="text"
+            value=""
+            name=""
+            id="midname"
+            placeholder="Васильевич"
+            required
+          />
+        </div>
+
+        <div class="nation-box">
+          <p>Гражданство(а):</p>
+          <input
+            class="input-checkbox"
+            type="radio"
+            name="nationality"
+            id="nation-ru"
+          />
+          <label for="nation-ru">РФ</label>
+
+          <input
+            class="input-checkbox"
+            type="radio"
+            name="nationality"
+            id="nation-china"
+          />
+          <label for="nation-china">КНР</label>
+
+          <input
+            class="input-checkbox"
+            type="radio"
+            name="nationality"
+            id="nation-ukraine"
+          />
+          <label for="nation-ukraine">Украина</label>
+
+          <input
+            class="input-checkbox"
+            type="radio"
+            name="nationality"
+            id="nation-other"
+            required
+          />
+          <label for="nation-other">Другое</label>
+        </div>
+
+        <div class="access-test">
+          <h2 class="form-title">Тест</h2>
+          <p class="test-instruction">
+            Отвечайте только "да" или "нет" в полях ввода данных
+          </p>
+          <div class="test-inputs">
+            <div class="test-one-box">
+              <label for="test-one">1. Готовы ли вы к переезду?</label>
+              <input
+                class="input-test"
+                type="text"
+                value=""
+                name=""
+                id="test-one"
+                placeholder="да / нет"
+                required
+              />
+            </div>
+
+            <div class="test-two-box">
+              <label for="test-two">2. Приследуетесь ли вы уголовно?</label>
+              <input
+                class="input-test"
+                type="text"
+                value=""
+                name=""
+                id="test-two"
+                placeholder="да / нет"
+                required
+              />
+            </div>
+
+            <div class="test-three-box">
+              <label for="test-three">3. Имеете ли высшее образование?</label>
+              <input
+                class="input-test"
+                type="text"
+                value=""
+                name=""
+                id="test-three"
+                placeholder="да / нет"
+                required
+              />
+            </div>
+
+            <div class="test-four-box">
+              <label for="test-four"
+                >4. Есть ли у вас родственники в нашей стране?</label
+              >
+              <input
+                class="input-test"
+                type="text"
+                value=""
+                name=""
+                id="test-four"
+                placeholder="да / нет"
+                required
+              />
+            </div>
+          </div>
+          <p>
+            Результаты теста:
+            <span class="test-result"
+              >для отправки данных нажмите на кнопку ниже.</span
+            >
+          </p>
+        </div>
+        <div class="button-div">
+          <button type="submit" class="submit-button">Отправить</button>
+        </div>
+      </form>
+    </div>
+    <!-- container closing -->
+    <script src="app.js"></script>
+  </body>
+</html>
