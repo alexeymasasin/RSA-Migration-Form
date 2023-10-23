@@ -331,7 +331,7 @@ textarea:focus,
 #nation-china,
 #nation-other {
   position: relative;
-  bottom: -1px;
+  bottom: -3px;
 }
 
 .nation-other,
@@ -455,7 +455,7 @@ textarea:focus,
 #sex-male,
 #sex-female {
   position: relative;
-  bottom: -4px;
+  bottom: -2px;
 }
 
 input[type="radio"]:after {
