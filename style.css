@@ -323,6 +323,13 @@ textarea:focus,
   flex-grow: 1;
 }
 
+#nation-ru,
+#nation-china,
+#nation-other {
+  position: relative;
+  bottom: -1px;
+}
+
 .nation-other,
 #nation-other {
   display: none;
@@ -363,34 +370,6 @@ textarea:focus,
   accent-color: #ab79d6;
   border: 2px solid rgba(255, 255, 255, 0.084);
   border-radius: 3px;
-}
-
-input[type="radio"]:after {
-  width: 14px;
-  height: 14px;
-  border-radius: 15px;
-  top: 0px;
-  left: -1px;
-  position: relative;
-  background-color: #fff;
-  content: "";
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid #424242;
-}
-
-input[type="radio"]:checked:after {
-  width: 14px;
-  height: 14px;
-  border-radius: 15px;
-  top: 0px;
-  left: -1px;
-  position: relative;
-  background-color: #ab79d6;
-  content: "";
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid #424242;
 }
 
 .footer-box {
@@ -472,7 +451,35 @@ input[type="radio"]:checked:after {
 #sex-male,
 #sex-female {
   position: relative;
-  bottom: -2px;
+  bottom: -4px;
+}
+
+input[type="radio"]:after {
+  width: 14px;
+  height: 14px;
+  border-radius: 15px;
+  top: 0px;
+  left: -1px;
+  position: relative;
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #424242;
+}
+
+input[type="radio"]:checked:after {
+  width: 14px;
+  height: 14px;
+  border-radius: 15px;
+  top: 0px;
+  left: -1px;
+  position: relative;
+  background-color: #ab79d6;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #424242;
 }
 
 .sex-title {
